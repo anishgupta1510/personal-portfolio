@@ -1,0 +1,265 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+html{
+    scroll-behavior: smooth;
+   
+}
+
+
+
+.menubtn{
+    background-color: white;
+    color: black;
+    margin-left: 2px;
+    margin-top: 2px;
+    position: fixed;
+    z-index: 10001;
+    border: 2px solid grey;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.menubtn:hover{
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+    outline: none;
+}
+
+.menubtn span{
+    font-size: 1rem;
+    padding: 0;
+
+}
+
+.menubtn span i{
+    padding: 0;
+}
+
+.listitems ul li{
+    color: gray;
+    background-color: white;
+    list-style: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.listitems ul li:hover{
+    background-color: whitesmoke;
+    color: white;
+   
+}
+
+.listitems ul li a{
+    text-decoration: none;
+}
+
+.home{
+    min-height: 100vh;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    display: flex;
+}
+
+.intro{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.propic{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.propic img{
+    width: 50%;
+    border-radius: 500px;
+    
+}
+
+.vt{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.about{
+    margin: 20px 0;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform: translateX(15%);
+}
+
+.bi-n{
+    font-size: 2rem;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.bi-n:hover{
+    font-size: 2.1rem;
+    transition: all 0.3s ease;
+    background-color: rgb(235, 235, 235);
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-instagram{
+    color: rgb(233, 22, 57);
+}
+
+.bi-twitter{
+    color: rgb(0, 218, 247);
+}
+
+.bi-envelope-open{
+    color: lightskyblue;
+}
+
+.card{
+    cursor: pointer;
+    /* padding: 20px; */
+    border: white;
+}
+
+.darkcan{
+    background-color: black;
+    color: white;
+}
+
+.card:hover{
+    background-color: whitesmoke;
+    font-weight: bold;
+    transition: all 0.1s ease;
+}
+
+.card-body p{
+    padding: 10px;
+}
+
+#HOME{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Baloo 2', cursive;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+    /* background-color: rgb(189, 20, 20); */
+}
+
+#ABOUT{
+    font-family: 'Baloo 2', cursive;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+
+}
+
+#SKILLS{
+    font-family: 'Baloo 2', cursive;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+}
+
+#EDUCATIONS{
+    font-family: 'Baloo 2', cursive;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+}
+
+#PROJECTS{
+    font-family: 'Baloo 2', cursive;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+
+}
+
+#CF{
+    font-family: 'Baloo 2', cursive;
+    /* cursor: pointer; */
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 0;
+}
+
+#CONTACTS{
+    font-family: 'Ubuntu', sans-serif;
+    /* background: linear-gradient(rgb(255, 233, 233),rgb(200, 210, 255)); */
+}
+
+#darkbtn{
+    padding: 10px;
+    outline: none;
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+#darkbtn:hover{
+    background-color: royalblue;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+#menuicon{
+    margin: 0 5px;
+}
+
+.darky{
+    /* background-color: rgb(121, 111, 119); */
+    background-color: #4f5962;
+    color: white;
+}
+
+.darkycard{
+    background-color: #4f5962;
+    color: white;
+}
+
+.darkyy-body{
+    background-color: rgb(29, 26, 26);
+    /* color: white;/ */
+
+}
+
+.darkycard:hover{
+    background-color: #565d63;
+}
+
+@media (max-width: 572px){
+    .propic img{
+        width: 65%;
+    }
+}
+
+@media (max-width: 400px){
+    .home{
+        flex-direction: column;
+    }
+    .propic img{
+        width: 80%;
+    }
+    .propic{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 330px){
+    .card img{
+        width: 150px;
+        height: 150px;
+    }
+}
